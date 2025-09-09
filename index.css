@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+/* .container{
+    width:100%;
+    max-width: 1440px;
+} */
+header{
+    background-color: black;
+    padding:35px;
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        color:#fff;
+        gap:50px;
+        img{
+            width: 143px;
+            height: 25px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:50px;
+            .son{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 25px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+}
