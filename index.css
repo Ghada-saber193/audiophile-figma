@@ -121,6 +121,7 @@ header{
                 width: 160px;
                 height: 48px;
                 padding:15px 29.5px 15px 31.5px;
+                border:none;
             }
         }
         .img{
@@ -135,5 +136,169 @@ header{
                 padding-bottom:20px;
             }
         }
+    }
+}
+.sections{
+    padding:200px 165px ;
+    @media screen and (max-width:992px ){
+        padding: 80px 30px;
+        }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color:white;
+        gap:5%;
+            @media screen and (max-width:992px ){
+                /* width:100%; */
+                gap:60px;
+            }
+        .cards{
+            width:30%;
+            height:204px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F1F1F1;
+            align-items: center; 
+            gap:10px;
+            @media screen and (max-width:992px ){
+                width:100%;
+                gap:20px;
+            }
+            img{
+                width: 122.9473648071289px;
+                height: 160px;
+                margin-top:-70px;
+                @media screen and (max-width:767px ){
+                    width: 79px;
+                    height: 102px;
+                    margin-top:-40px;
+                    
+                }
+            }
+            h6{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 100%;
+                letter-spacing: 1.29px;
+                text-align: center;
+                text-transform: uppercase;
+                /* color:#0000; */
+            }
+            p{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 100%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                svg{
+                    color:#D87D4A;
+                }
+            }
+        }
+    }
+}
+.orange-section{
+     @media screen and (max-width:992px ){
+        padding: 80px 30px;
+        }
+    .container{
+        height: auto;
+        border-radius: 8px;
+        margin-bottom:48px;
+        background-color: #d87e4a;
+        background-image: url(./images/Group\ 4.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:95px 95px 0 117px;
+        gap:138.28px;
+        @media screen and (max-width:767px ){
+        padding: 20px 0px;
+        align-items: center;
+        justify-content: center;
+        gap:40px;
+        }
+        @media screen and (max-width:992px ){
+            background-image: url(./images/Group\ 4\ \(1\).png);
+            background-position: top;
+            background-size: 103%;
+        }
+        
+        .left{
+            width:42%;
+            @media screen and (max-width:767px ){
+                padding-left:22%;
+                width:100%;
+            }
+            img{
+                width: 410.23358154296875px;
+                height: 465px;
+                @media screen and (max-width:767px ){
+                    width: 172.2481689453125px;
+                    height: 207px;
+                }
+            }
+        }
+        .right{
+            width:33%;
+            height: 303px;
+            display: flex;
+            flex-direction: column;
+            gap:24px;
+            padding-top:6%;
+            @media screen and (max-width:992px ){
+                padding:10px 200px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            @media screen and (max-width:767px ){
+                padding-top: 0;
+                padding: 10px 100px;
+            }
+            h2{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: clamp(36px, 7vw, 56px);
+                line-height: 58px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            p{
+                width: 349px;
+                height: 75px;
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0px;
+                color: #ffffff8d;
+                @media screen and (max-width:767px ){
+                width:228px;
+                height:75px;
+               
+                }
+            }
+            button{
+                color:#fff;
+                background-color: #000;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 100%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                outline:none;
+                width: 160px;
+                height: 48px;
+                padding:15px 29.5px 15px 31.5px;
+                border:none;
+            }      
+        }  
     }
 }
